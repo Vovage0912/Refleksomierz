@@ -1,0 +1,173 @@
+
+body {
+    background-color: black;
+
+}
+
+#contariner {
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    background-color: #111111;
+}
+
+#logo {
+    text-align: center;
+
+}
+
+#logo-img {
+    height: 40%;
+    width: 40%;
+}
+
+#start-button-container {
+    padding: 30px;
+    display: block;
+}
+
+#start-button {
+    font-size: 45px;
+    padding: 15px;
+    background-color: #C0C0C0;
+}
+
+.input-button {
+    font-size: 35px;
+    padding: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #808080;
+}
+
+#game_settings-input-container {
+    margin: auto;
+
+}
+
+.game_settings-description {
+    color: white;
+    font-size: 35px;
+}
+
+#game_settings-input_button_select {
+    font-size: 25px;
+    width: 80px;
+    text-align: center;
+}
+
+#game_settings-input_level_select {
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+}
+
+.game_settings-container {
+    border: dotted 5px white;
+    margin: auto;
+    width: 80%;
+    max-width: 400px;
+
+}
+
+#game_window-container {
+    margin-top: 20px;
+    display: none;
+}
+
+#game-buton {
+    width: 250px;
+    height: 250px;
+    background-color: #111111;
+   border: solid 5px yellow;
+}
+
+#game_stop-button {
+    width: 90px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.game_stats-block {
+    color: white;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+
+}
+
+#game_stats-container {
+    margin-top: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+#footer {
+    margin-top: 10px;
+    border-top: #C0C0C0 solid 5px;
+    border-bottom: #C0C0C0 solid 5px;
+}
+
+#play_again-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+#play_again-button_true {
+    font-size: 40px;
+    margin: 15px;
+}
+
+#play_again-button_false {
+    font-size: 40px;
+    margin: 15px;
+}
+
+#game-buton:hover {
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 450px) {
+    .game_stats-block {
+        color: white;
+        float: left;
+        margin-left: 15px;
+        font-size: 12px;
+
+    }
+
+    #logo-img {
+        height: 90%;
+        width: 90%;
+    }
+
+    .game_settings-description {
+        color: white;
+        font-size: 15px;
+    }
+
+    #game_settings-input_button_select {
+        font-size: 15px;
+        width: 60px;
+        text-align: center;
+    }
+
+    #game_settings-input_level_select {
+        font-size: 15px;
+        width: 35px;
+        text-align: center;
+    }
+}

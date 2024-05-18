@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Refleksomierz</title>
+</head>
+<body>
+
+<div id="contariner">
+    <div id="logo">
+        <img src="resources/logo.jpg" alt="logo" id="logo-img">
+    </div>
+    <div id="game-container">
+        <div id="start-button-container">
+            <button id="start-button">START!</button>
+        </div>
+        <div class="game_settings-container">
+
+            <div id="game_settings-input_button-container">
+                <span class="game_settings-description">INPUT BUTTON: </span>
+                <input id="game_settings-input_button_select" type="text" value="LPM" maxlength="3">
+            </div>
+
+            <div id="game_settings-input_level-container">
+                <span class="game_settings-description">LEVEL: </span>
+                <input id="game_settings-input_level_select" type="number" value="5" max="99" min="1" maxlength="2">
+
+            </div>
+
+            </div>
+
+        <div id="game_window-container">
+            <div id="game_window-square-button">
+                <button id="game_stop-button">STOP GAME</button>
+                </br>
+                <button id="game-buton"></button>
+            </div>
+        </div>
+
+        <div id="play_again-container">
+            <span style="font-size: 25px; color: wheat">Czy chcesz zagrać raz jeszcze?</span>
+            </br>
+            <button id="play_again-button_true">TAK</button>
+            <button id="play_again-button_false">NIE</button>
+        </div>
+
+        <div id="game_stats-container">
+            <div class="game_stats-block">The shortest response time: <span id="SRT" style="color: wheat">0.0</span></div>
+            <div class="game_stats-block">The longest response time: <span id="LRT" style="color: wheat">0.0</span></div>
+            <div class="game_stats-block">Average response time: <span id="ART" style="color: wheat">0.0</span></div>
+            <div class="game_stats-block">Clicks before changing color: <span id="CBCC" style="color: wheat">0.0</span></div>
+            <div class="game_stats-block">The best result in the session: <span id="TBR" style="color: wheat">0.0</span></div>
+            <div style="clear: both"></div>
+        </div>
+        </div>
+
+    <div id="greetings" style="color: whitesmoke; font-size: 50px; margin: 25px; display: none">
+        <span>Dzięki za grę! Wpadnij na mojego GitHub'a: <a href="https://github.com/Vovage0912" style="color: inherit;">Klik!</a> </span>
+    </div>
+
+    <div id="footer" style="margin-top: 25px">
+        <p style="color: red">&copy; 2024 Herbert. Wszelkie prawa zastrzeżone.
+        <a href="https://github.com/Vovage0912" target="_blank" style="color: inherit;">Zapraszam na mojego GitHub'a.</a>
+        </p>
+    </div>
+
+
+    </div>
+
+<script src="js.js">
+
+</script>
+</body>
+</html>
